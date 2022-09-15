@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://auth.atlassian.com/authorize?audience=api.atlassian.com</authorizeUrl>
+    <consumerKey>zfnXHc8TgqBFmS3qQjolD23EyTzEHe4V</consumerKey>
+    <consumerSecret>8riCXuX92SRWqOnwgPPH+aKvuh/FYmUf8sW0yTQ752T6hf+2UFEG8wfsgjW4kJF6wxyWsp18e70uG6hoKbvcy3BBGPdiC2rX</consumerSecret>
+    <defaultScopes>read:jira-work manage:jira-project manage:jira-configuration read:jira-user write:jira-work manage:jira-data-provide offline_access</defaultScopes>
+    <friendlyName>Atlassian</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>OpenIdConnect</providerType>
+    <sendAccessTokenInHeader>true</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://auth.atlassian.com/oauth/token</tokenUrl>
+</AuthProvider>
