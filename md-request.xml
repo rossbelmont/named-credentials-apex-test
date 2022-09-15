@@ -1,0 +1,18 @@
+<?xml version=“1.0” encoding=“UTF-8"?>
+<env:Envelope xmlns:env=“http://schemas.xmlsoap.org/soap/envelope/” xmlns:xsd=“http://www.w3.org/2001/XMLSchema” xmlns:xsi=“http://www.w3.org/2001/XMLSchema-instance”>
+  <env:Header>
+    <SessionHeader xmlns=“http://soap.sforce.com/2006/04/metadata”>
+      <sessionId>SESSION_ID_REMOVED</sessionId>
+    </SessionHeader>
+  </env:Header>
+  <env:Body>
+    <createMetadata xmlns=“http://soap.sforce.com/2006/04/metadata”>
+      <metadata xsi:type=“ExternalCredential”>
+        <fullName>Metadata_External_Credential</fullName>
+        <authenticationProtocol>Oauth</authenticationProtocol>
+        <description />
+        <label>Metadata</label>
+      </metadata>
+    </createMetadata>
+  </env:Body>
+</env:Envelope>

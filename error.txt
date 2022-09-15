@@ -1,0 +1,28 @@
+createMetadata_element:[apex_schema_type_info=
+(http://soap.sforce.com/2006/04/metadata, true, false), field_order_type_info=
+(metadata), metadata=
+(ExternalCredential:
+[Metadata.fullName=null, apex_schema_type_info=(http://soap.sforce.com/2006/04/metadata, true, false), 
+authenticationProtocol=Oauth, authenticationProtocol_type_info=
+(authenticationProtocol, http://soap.sforce.com/2006/04/metadata, null, 1, 1, false), description=null, description_type_info=
+(description, http://soap.sforce.com/2006/04/metadata, null, 1, 1, false), 
+externalCredentialParameters=
+(ExternalCredentialParameter:[apex_schema_type_info=
+(http://soap.sforce.com/2006/04/metadata, true, false), authProvider=
+Atlassian, authProvider_type_info=
+(authProvider, http://soap.sforce.com/2006/04/metadata, null, 0, 1, false), description=null, description_type_info=
+(description, http://soap.sforce.com/2006/04/metadata, null, 0, 1, false), field_order_type_info=
+(authProvider, description, parameterName, parameterType, parameterValue, principal, sequenceNumber), 
+parameterName=AuthProvider, parameterName_type_info=
+(parameterName, http://soap.sforce.com/2006/04/metadata, null, 0, 1, false), parameterType=AuthProvider, parameterType_type_info=
+(parameterType, http://soap.sforce.com/2006/04/metadata, null, 0, 1, false), parameterValue=null, parameterValue_type_info=
+(parameterValue, http://soap.sforce.com/2006/04/metadata, null, 0, 1, false), principal=null, sequenceNumber=null, sequenceNumber_type_info=
+(sequenceNumber, http://soap.sforce.com/2006/04/metadata, null, 1, 1, false)]), externalCredentialParameters_type_info=
+(externalCredentialParameters, http://soap.sforce.com/2006/04/metadata, null, 0, -1, false), field_order_type_info=
+(fullName, authenticationProtocol, description, label), fullName=
+Metadata_External_Credential, fullName_type_info=
+(fullName, http://soap.sforce.com/2006/04/metadata, null, 0, 1, false), label=
+Metadata, label_type_info=
+(label, http://soap.sforce.com/2006/04/metadata, null, 1, 1, false), type=
+ExternalCredential, type_att_info=(xsi:type)]), metadata_type_info=(metadata, http://soap.sforce.com/2006/04/metadata, null, 0, -1, false)]::
+SOAPAction="" Accept=text/xml User-Agent=SFDC-Callout/56.0 SFDC_STACK_DEPTH=1 Content-Type=text/xml; charset=UTF-8
